@@ -1,3 +1,5 @@
+//Maneiras de declarar variaveis 
+//Regra geral: crie variavel usando let. O let não permite que a variavel seja redeclarada, já o var sim
 var a = 3
 let b = 4
 

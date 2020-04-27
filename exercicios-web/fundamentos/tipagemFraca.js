@@ -1,12 +1,12 @@
+/*
+JS é fracamente tipada, isso significa que a variável 
+pode assumir diferentes tipos de dados ao longo do programa
+*/
+//aqui qualquer é string
 let qualquer = 'Legal'
 console.log(qualquer)
 console.log(typeof qualquer)
-
-qualquer = 3.1516
+//já aqui ele é do tipo number
+qualquer = 3.141516
 console.log(qualquer)
 console.log(typeof qualquer)
-
-// Evitar nome genéricos e siglas
-let valor = ''
-let numero = 1
-let pqp = false // Produto Químico Perigoso... kkk

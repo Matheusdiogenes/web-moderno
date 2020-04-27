@@ -1,4 +1,5 @@
-const prod1 = {}
+
+const prod1 = {} //par de chaves representa um objeto, um obj é uma coleção de chave:valor
 prod1.nome = 'Celular Ultra Mega'
 prod1.preco = 4998.90
 prod1['Desconto Legal'] = 0.40 // evitar atributos com espaço
