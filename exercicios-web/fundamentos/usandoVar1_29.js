@@ -1,3 +1,5 @@
+//O var é visivél fora do bloco/escopo em que foi declarada, a não ser se você declarar dentro de uma função
+//quando se cria uma variável fora de uma função ela é global
 { 
     { 
         { 
