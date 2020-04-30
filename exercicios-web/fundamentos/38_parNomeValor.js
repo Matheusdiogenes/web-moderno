@@ -1,3 +1,4 @@
+//contexto léxico é o local em que a variável foi declarada, "saudacao" tão em contextos diferentes
 // par nome/valor
 const saudacao = 'Opa' // contexto léxico 1
 
