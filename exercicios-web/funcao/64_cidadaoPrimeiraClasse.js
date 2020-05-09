@@ -1,3 +1,4 @@
+// JS trata função como um dado
 // Função em JS é First-Class Object (Citizens)
 // Higher-order function
 
@@ -29,7 +30,6 @@ function soma(a, b) {
         console.log(a + b + c)
     }
 }
-
 soma(2, 3)(4)
 const cincoMais = soma(2, 3)
-cincoMais(4)
+cincoMais(4)   
