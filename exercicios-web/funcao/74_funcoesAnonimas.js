@@ -11,6 +11,7 @@ imprimirResultado(3, 4, soma)
 imprimirResultado(3, 4, function (x, y) {
     return x - y
 })
+//                              arrow
 imprimirResultado(3, 4, (x, y) => x * y)
 
 const pessoa = {
