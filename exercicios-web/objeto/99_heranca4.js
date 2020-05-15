@@ -1,3 +1,4 @@
+//Quando voCẽ cria um objeto a parti de um função, esse objeto aponta para function.prototype
 function MeuObjeto() {}
 console.log(MeuObjeto.prototype)
 
