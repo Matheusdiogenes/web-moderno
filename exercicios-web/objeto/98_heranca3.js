@@ -1,6 +1,6 @@
 const pai = { nome: 'Pedro', corCabelo: 'preto' }
 
-const filha1 = Object.create(pai)
+const filha1 = Object.create(pai) // o prototype de filha1 é pai
 filha1.nome = 'Ana'
 console.log(filha1.corCabelo)
 

@@ -2,6 +2,7 @@
 function MeuObjeto() {}
 console.log(MeuObjeto.prototype)
 
+// quando se  cria um obj a partir de uma função construtora, o prototipo desse obj aponta para a funçãoQueVocêCriou.prototype
 const obj1 = new MeuObjeto
 const obj2 = new MeuObjeto
 console.log(obj1.__proto__ === obj2.__proto__)
