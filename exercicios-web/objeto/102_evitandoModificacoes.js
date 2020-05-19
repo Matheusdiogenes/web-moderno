@@ -1,4 +1,4 @@
-// Object.preventExtensions
+// Object.preventExtensions | Você não consegue colocar mais atributos no obj
 const produto = Object.preventExtensions({
     nome: 'Qualquer', preco: 1.99, tag: 'promoção'
 })
@@ -9,7 +9,7 @@ produto.descricao = 'Borracha escolar branca'
 delete produto.tag
 console.log(produto)
 
-// Object.seal
+// Object.seal | Você não consegue add novos atributos, excluir atributos do obj, só cosegue moddifica valores dos atributos
 const pessoa = { nome: 'Juliana', idade: 35 }
 Object.seal(pessoa)
 console.log('Selado:', Object.isSealed(pessoa))
