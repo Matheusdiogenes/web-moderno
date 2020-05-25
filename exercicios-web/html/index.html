@@ -5,29 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercicios HTML</title>
+    <style>
+        #conteudo {
+            padding: 30px 0px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Exercicios HTML</h1>
     </header>    
     <nav>
-        <a href="exercicios/teste.html">00 - Teste</a>
+        <a href wm-nav="exercicios/teste.html">00 - Teste</a> | <!-- usando propriedades personalizadas -->
+        <a href wm-nav="exercicios/texto1.html">01 - Texto1 </a> |
+        <a href wm-nav="exercicios/texto2.html">02 - Texto2 </a> |
     </nav>
     <section id="conteudo">
 
     </section>
-    <footer>
-        <br>
+    <footer>        
         Curso de web moderno
     </footer>
 
     <script>
-        document.querySelectorAll('a').forEach(link => {
+        document.querySelectorAll('[wm-nav]').forEach(link => {
             const conteudo = document.getElementById('conteudo')
             
             link.onclick = function(e){
                 e.preventDefault() //vai previnir que a navegação ocorra, que seria o comportaamento padrão
-                fetch(link.href)//requisição AJAX em cima do attr href
+                fetch(link.getAttribute('wm-nav'))
                 .then(resp => resp.text())
                 .then(html => conteudo.innerHTML = html)
                                     
