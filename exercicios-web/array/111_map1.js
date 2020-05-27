@@ -1,3 +1,4 @@
+// O map serve para gerar um novo array sem mexer no atual  
 const nums = [1, 2, 3, 4, 5]
 
 // For com propósito
