@@ -1,3 +1,4 @@
+//aula 125
 const moduloA = require('../../moduloA')
 console.log(moduloA.ola)
 
