@@ -1,3 +1,4 @@
+//aula131
 console.log(this === global)
 console.log(this === module)
 

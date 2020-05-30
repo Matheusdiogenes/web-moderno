@@ -1,3 +1,4 @@
+//aula 130
 // console.log(global)
 global.MinhaApp = Object.freeze({
     saudacao() {
