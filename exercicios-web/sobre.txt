@@ -1,0 +1,4 @@
+Seção nodejs
+aula 124
+instalar: instalar a biblioteca lodash
+          instalar o nodemon
