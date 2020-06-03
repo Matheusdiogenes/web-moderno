@@ -1,0 +1,8 @@
+{
+    "bd": {
+        "host": "locahost",
+        "porta": 1452,
+        "user": "eu",
+        "pass": "1234"
+    }
+}
