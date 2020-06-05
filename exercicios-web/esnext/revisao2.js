@@ -1,25 +1,19 @@
-// Arrow Function
-const soma = (a, b) => a + b
-console.log(soma(2, 3))
+// Arrow funcion
+const f = (a, b) => a+b
 
-// Arrow Function (this)
-const lexico1 = () => console.log(this === exports)
+// Arrow funcion (this)
+
+const lexico1 = () => console.log(this === exports);
 const lexico2 = lexico1.bind({})
+
 lexico1()
 lexico2()
 
-// parametro default
-function log(texto = 'Node') {
-    console.log(texto)
-}
+//operador rest
 
-log()
-log('Sou mais forte')
-
-// operador rest
-function total(...numeros) {
+function total(...num){
     let total = 0
-    numeros.forEach(n => total += n)
+    num.forEach( n => total+=n)
     return total
 }
-console.log(total(2, 3, 4, 5))
+console.log(total(1,2,3,4));
