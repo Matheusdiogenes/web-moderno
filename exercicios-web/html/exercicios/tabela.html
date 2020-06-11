@@ -1,0 +1,57 @@
+<table >
+    <!-- o que representa a tabela -->
+    <caption>Produtos</caption> 
+    <!-- thead: cabeçalho da tabela -->
+    <thead>
+        <!-- table row -->
+        <tr>
+            <!-- table head -->
+            <th>Produtos</th>
+            <th>Preço</th>
+            <th>Qtd</th>
+        </tr>
+    </thead>
+    <!-- table body -->
+    <tbody>
+        <tr>
+            <!-- table data -->
+            <td>Ipai</td>
+            <td>2548.99</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Notebook</td>
+            <td>5698.65</td>
+            <td>1</td>
+        </tr>  
+        
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>8568.50</td>
+            </tr>
+        </tfoot>
+    </tbody>
+</table>
+
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+    }
+    thead, tr {
+        border-bottom: solid 3px #444;
+    }
+
+    tbody tr:hover{
+        background-color: #444;
+        
+    }
+    tfoot{
+        background-color: black;
+        color: aliceblue;
+        font-weight: bold;
+    }
+</style>

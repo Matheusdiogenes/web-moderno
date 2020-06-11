@@ -1,18 +1,22 @@
 <h1>Musicas</h1>
-<ul>
+<ul class="tree">
     <li>
-        Rapper
-        <ol>
-            <li>Racionais Mc´s</li>
-            <li>bk</li>
-            <li>Djonga</li>
-        </ol>       
+        <span mini> Rapper</span>
+        <ul>
+            <li>Bk</li>
+            <li>Racionais</li>
+        </ul>
     </li>
-
-    <li>
-        Funk
-        <ol>
-            <li>mc pedrinho</li>
-        </ol>
-    </li>
+    
 </ul>
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+<script>
+    document.querySelectorAll('[mini]').forEach( pasta => {
+        pasta.onclick = function(e){
+            const ul = pasta.nextElementSibling
+            const u = ul.style.display
+            ul.style.display = u === 'none' ? 'block' : 'none'
+        }
+    })
+</script>
