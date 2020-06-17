@@ -6,30 +6,23 @@
     <title>Anatomia CSS</title>
     <style>
         .seletor {
-            color: #fff;
+            color: black;
             font-size: 30px;
             text-align: center;
-            /* multiplos valores */
-            border: solid 5px navy; /* shorthand property */
-            font-family: Helvetica, sans-serif;
+            /* Mutiplos valores */
+            border: solid 1px tomato;
+            font-family: Arial, Helvetica, sans-serif;
             /* funções */
-            width: calc(100% - 40px);
-            background-color: rgb(34, 153, 189);
+            width: calc(100% - 40px);            
         }
-
-        /* Usando uma pseudo-classe */
-        .seletor:hover {
-            background-color: orangered;
+        /* Usando o pseudo-classe */
+        .seletor:hover{
+            background-color: cadetblue;
         }
-
-        /* Usando um pseudo-elemento */
-        .seletor::first-letter {
-            font-size: 60px;
-            font-weight: bold;
+        /* Usando o pseudo-elemento */
+        .seletor::first-letter{
+            font-size: 50px;
         }
-
-        /* padrão de nomenclatura? */
-        /* dash-case ou camelCase? */
     </style>
 </head>
 
