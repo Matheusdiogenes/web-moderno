@@ -1,8 +1,9 @@
-INSERT INTO cidades (nome, area, estados_id)
-    VALUES('Campinas', 795, 31)
+ SELECT * FROM estados
+ INSERT INTO cidades (nome, area, estados_id)
+    VALUES('Campinas', 795, 29)
 
 INSERT INTO cidades(nome, area, estados_id)
-    VALUES('Niterói', 133.9, 25)
+    VALUES('Niterói', 133.9, 23)
 
 INSERT INTO cidades(nome, area, estados_id)
     VALUES (
@@ -14,7 +15,7 @@ INSERT INTO cidades(nome, area, estados_id)
 INSERT INTO cidades(nome, area, estados_id)
     VALUES (
         'Juazeiro do Norte',
-        958.2,
+        248.2,
         (SELECT id FROM estados WHERE sigla = 'CE')
     )
 SELECT * FROM cidades

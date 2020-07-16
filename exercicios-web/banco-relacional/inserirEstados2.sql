@@ -1,4 +1,3 @@
--- Mais estados
 INSERT INTO estados
     (nome, sigla, regiao, populacao)
 VALUES
@@ -24,4 +23,4 @@ VALUES
     ('Santa Catarina', 'SC', 'Sul', 7.01),
     ('São Paulo', 'SP', 'Sudeste', 45.10),
     ('Sergipe', 'SE', 'Nordeste', 2.29),
-    ('Tocantins', 'TO', 'Norte', 1.55); 
+    ('Tocantins', 'TO', 'Norte', 1.55);
