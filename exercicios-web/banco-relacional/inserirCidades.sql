@@ -19,4 +19,4 @@ INSERT INTO cidades(nome, area, estados_id)
         (SELECT id FROM estados WHERE sigla = 'CE')
     )
 SELECT * FROM cidades
-    
+            
