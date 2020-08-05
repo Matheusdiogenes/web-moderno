@@ -1,7 +1,0 @@
-Seção nodejs
-aula 124
-instalar: instalar a biblioteca lodash
-          instalar o nodemon
-aula 139
-instalar: instalar o postman
-postman serve para fazer requisições
