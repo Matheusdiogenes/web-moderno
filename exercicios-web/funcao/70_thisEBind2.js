@@ -1,5 +1,5 @@
 //AMARRANDO O this NA FUNÇÃO
- function Pessoa() {
+function Pessoa() {
     this.idade = 0
 
     const self = this //self sempre vai aponta para pessoa
